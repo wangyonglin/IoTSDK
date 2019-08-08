@@ -1,2 +1,3 @@
-# IoTSDK [![](https://jitpack.io/v/wangyonglin/IotSDK.svg)](https://jitpack.io/#wangyonglin/IotSDK)
+# IoTSDK 
+[![](https://jitpack.io/v/wangyonglin/IoTSDK.svg)](https://jitpack.io/#wangyonglin/IoTSDK)
 
