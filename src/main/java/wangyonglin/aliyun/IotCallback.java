@@ -1,4 +1,4 @@
-package com.aliyun;
+package wangyonglin.aliyun;
 
 public interface IotCallback<T>
 {

@@ -1,10 +1,16 @@
-package com.aliyun;
+package wangyonglin.aliyun;
 
 import javakit.apache.commons.codec.binary.Base64;
 import javakit.network.JavaKitClientResponse;
 import javakit.network.JavaKitClientResponseCallback;
 
+import javax.crypto.Mac;
+import java.net.URLEncoder;
+import java.text.SimpleDateFormat;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class IotKit {
     static String accessKeyId = "";
@@ -39,10 +45,10 @@ public class IotKit {
         }
         public static String UrlPublish(String TopicFullName, String Message) throws Exception {
 
-            java.text.SimpleDateFormat df = new java.text.SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+            SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
             df.setTimeZone(new java.util.SimpleTimeZone(0, "GMT"));// 这里一定要设置GMT时区
 
-            java.util.Map<String, String> paras = new java.util.HashMap<String, String>();
+            Map<String, String> paras = new HashMap<String, String>();
             // 1. 系统参数
             paras.put("SignatureMethod", "HMAC-SHA1");
             paras.put("SignatureNonce", java.util.UUID.randomUUID().toString());
@@ -65,11 +71,11 @@ public class IotKit {
                 paras.remove("Signature");
 
             // 4. 参数KEY排序
-            java.util.TreeMap<String, String> sortParas = new java.util.TreeMap<String, String>();
+            TreeMap<String, String> sortParas = new TreeMap<String, String>();
             sortParas.putAll(paras);
 
             // 5. 构造待签名的字符串
-            java.util.Iterator<String> it = sortParas.keySet().iterator();
+            Iterator<String> it = sortParas.keySet().iterator();
             StringBuilder sortQueryStringTmp = new StringBuilder();
             while (it.hasNext()) {
                 String key = it.next();
@@ -103,11 +109,11 @@ public class IotKit {
         }
 
         public static String specialUrlEncode(String value) throws Exception {
-            return java.net.URLEncoder.encode(value, "UTF-8").replace("+", "%20").replace("*", "%2A").replace("%7E", "~");
+            return URLEncoder.encode(value, "UTF-8").replace("+", "%20").replace("*", "%2A").replace("%7E", "~");
         }
 
         public static String sign(String accessSecret, String stringToSign) throws Exception {
-            javax.crypto.Mac mac = javax.crypto.Mac.getInstance("HmacSHA1");
+            Mac mac = Mac.getInstance("HmacSHA1");
             mac.init(new javax.crypto.spec.SecretKeySpec(accessSecret.getBytes("UTF-8"), "HmacSHA1"));
             byte[] signData = mac.doFinal(stringToSign.getBytes("UTF-8"));
             return new sun.misc.BASE64Encoder().encode(signData);

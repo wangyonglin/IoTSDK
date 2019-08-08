@@ -1,6 +1,6 @@
 package javakit.network;
 
 public interface JavaKitClientResponseCallback<T> {
-    default void success(T res){};
-    default void failure(Exception e){};
+     void success(T res);
+     void failure(Exception e);
 }

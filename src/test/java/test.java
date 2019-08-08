@@ -1,5 +1,4 @@
-import com.aliyun.IotCallback;
-import com.aliyun.IotKit;
+import wangyonglin.aliyun.IotCallback;
 import org.junit.Test;
 
 public class test implements IotCallback<String> {
