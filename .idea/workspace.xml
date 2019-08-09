@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2808bcd-9a78-498f-9a01-4c1b3524f671" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javakit/apache/internal/security/utils/Base64.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mqtt/src/main/java/com/aliyun/IotCallback.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mqtt/src/main/java/com/aliyun/IotKit.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mqtt/src/main/java/com/network/JavaKitClientResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/javakit/apache/internal/security/utils/Base64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/wangyonglin/utils/JavaKitBase64.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/wangyonglin/utils/JavaKitBase64.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javakit/apache/internal/security/utils/Base64.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wangyonglin/utils/JavaKitBase64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wangyonglin/utils/JavaKitBase64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/wangyonglin/utils/JavaKitBase64.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="108">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +40,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javakit/apache/internal/security/utils/Base64.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javakit/apache/commons/codec/binary/Base64.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="1294">
+              <caret line="621" column="23" selection-start-line="621" selection-start-column="23" selection-end-line="621" selection-end-column="23" />
+              <folding>
+                <element signature="e#23812#24236#0" />
+                <element signature="e#23812#24509#0" />
+                <element signature="e#25506#25907#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="19" column="73" lean-forward="true" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wangyonglin/aliyun/IotKit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,9 +101,9 @@
         <option value="$PROJECT_DIR$/src/main/java/javakit/network/JavaKitClientResponseCallback.java" />
         <option value="$PROJECT_DIR$/src/main/java/wangyonglin/utils/Base64.java" />
         <option value="$PROJECT_DIR$/src/main/java/wangyonglin/aliyun/IotKit.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/wangyonglin/utils/JavaKitBase64.java" />
         <option value="$PROJECT_DIR$/src/main/java/javakit/apache/internal/security/utils/Base64.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wangyonglin/utils/JavaKitBase64.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test.java" />
       </list>
     </option>
   </component>
@@ -135,39 +168,6 @@
               <item name="IOTSDK" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javakit" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="apache" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="internal" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="IOTSDK" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="WangYonglin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="IOTSDK" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javakit" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="apache" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="internal" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="security" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="IOTSDK" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="WangYonglin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="IOTSDK" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="javakit" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="apache" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="internal" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="security" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="utils" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="IOTSDK" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="WangYonglin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="IOTSDK" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="wangyonglin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -178,6 +178,19 @@
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="wangyonglin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="utils" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="IOTSDK" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="WangYonglin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="IOTSDK" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="IOTSDK" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="WangYonglin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="IOTSDK" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -199,7 +212,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565318340425" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565319514011" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -244,50 +257,50 @@
       <option name="presentableId" value="Default" />
       <updated>1565270100436</updated>
       <workItem from="1565270106207" duration="6121000" />
-      <workItem from="1565311486622" duration="6566000" />
+      <workItem from="1565311486622" duration="7626000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test__test - 2019.08.09 at 10h 02m 46s.xml">
+    <history-entry file="test__test - 2019.08.09 at 10h 47m 35s.xml">
       <configuration name="test._test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test__test - 2019.08.09 at 10h 03m 01s.xml">
+    <history-entry file="test__test - 2019.08.09 at 10h 47m 57s.xml">
       <configuration name="test._test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test__test - 2019.08.09 at 10h 03m 15s.xml">
+    <history-entry file="test__test - 2019.08.09 at 10h 49m 30s.xml">
       <configuration name="test._test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test__test - 2019.08.09 at 10h 03m 41s.xml">
+    <history-entry file="test__test - 2019.08.09 at 10h 50m 52s.xml">
       <configuration name="test._test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test__test - 2019.08.09 at 10h 07m 05s.xml">
+    <history-entry file="test__test - 2019.08.09 at 10h 51m 05s.xml">
       <configuration name="test._test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test__test - 2019.08.09 at 10h 11m 29s.xml">
+    <history-entry file="test__test - 2019.08.09 at 10h 52m 02s.xml">
       <configuration name="test._test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test__test - 2019.08.09 at 10h 12m 29s.xml">
+    <history-entry file="test__test - 2019.08.09 at 10h 52m 16s.xml">
       <configuration name="test._test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test__test - 2019.08.09 at 10h 14m 02s.xml">
+    <history-entry file="test__test - 2019.08.09 at 10h 54m 10s.xml">
       <configuration name="test._test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test__test - 2019.08.09 at 10h 27m 52s.xml">
+    <history-entry file="test__test - 2019.08.09 at 10h 54m 22s.xml">
       <configuration name="test._test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test__test - 2019.08.09 at 10h 32m 32s.xml">
+    <history-entry file="test__test - 2019.08.09 at 10h 56m 24s.xml">
       <configuration name="test._test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12687000" />
+    <option name="totallyTimeSpent" value="13747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -296,7 +309,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42880523" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42880523" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,19 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javakit/apache/commons/codec/binary/Base64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5138">
-          <caret line="568" column="25" selection-start-line="568" selection-start-column="25" selection-end-line="568" selection-end-column="25" />
-          <folding>
-            <element signature="e#23812#24236#0" />
-            <element signature="e#23812#24509#0" />
-            <element signature="e#24890#25500#0" />
-            <element signature="e#25506#25907#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Base64.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-56">
@@ -410,30 +410,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wangyonglin/aliyun/IotKit.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/com/sun/org/apache/xml/internal/security/exceptions/Base64DecodingException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-189">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/com/sun/org/apache/xml/internal/security/utils/Base64.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="149" column="41" selection-start-line="149" selection-start-column="41" selection-end-line="149" selection-end-column="41" />
+        <state relative-caret-position="133">
+          <caret line="134" column="27" selection-end-line="798" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5224#5225#0" expanded="true" />
@@ -442,20 +429,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wangyonglin/utils/JavaKitBase64.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/javakit/apache/internal/security/utils/Base64.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="106">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javakit/apache/internal/security/utils/Base64.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/wangyonglin/aliyun/IotKit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="646">
+          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javakit/apache/commons/codec/binary/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1294">
+          <caret line="621" column="23" selection-start-line="621" selection-start-column="23" selection-end-line="621" selection-end-column="23" />
+          <folding>
+            <element signature="e#23812#24236#0" />
+            <element signature="e#23812#24509#0" />
+            <element signature="e#25506#25907#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wangyonglin/utils/JavaKitBase64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="73" lean-forward="true" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

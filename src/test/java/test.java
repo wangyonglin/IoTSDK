@@ -17,7 +17,7 @@ public class test implements IotCallback<String> {
     @Test
     public void _test()  {
         IotKit.Init(accessKeyId,accessSecret,ProductKey,Topic);
-        IotKit.Publish("ESP82660003", JavaKitBase64.hex("DF88FD"),this);
+        IotKit.Publish("ESP82660003", JavaKitBase64.hex("FD03CB2A8854DF"),this);
 
 
     }
