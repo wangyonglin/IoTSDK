@@ -1,12 +1,29 @@
-import wangyonglin.aliyun.IotCallback;
+
+
+import com.sun.org.apache.xml.internal.security.utils.Base64;
 import org.junit.Test;
+import wangyonglin.aliyun.IotCallback;
+import wangyonglin.aliyun.IotKit;
+import wangyonglin.utils.JavaKitBase64;
+
+import java.math.BigInteger;
+
 
 public class test implements IotCallback<String> {
-
+    private static String accessKeyId = "";
+    private static String accessSecret = "";
+    private static  String ProductKey ="";
+    private static String Topic="";
     @Test
     public void _test()  {
+        IotKit.Init(accessKeyId,accessSecret,ProductKey,Topic);
+        IotKit.Publish("ESP82660003", JavaKitBase64.hex("DF88FD"),this);
+
 
     }
+
+
+
 
 
     @Override
@@ -16,6 +33,6 @@ public class test implements IotCallback<String> {
 
     @Override
     public void failure(Exception e) {
-        System.out.print(e.getMessage());
+        e.printStackTrace();
     }
 }

@@ -1,6 +1,6 @@
 package wangyonglin.aliyun;
 
-import javakit.apache.commons.codec.binary.Base64;
+
 import javakit.network.JavaKitClientResponse;
 import javakit.network.JavaKitClientResponseCallback;
 
@@ -63,7 +63,7 @@ public class IotKit {
             paras.put("RegionId", "cn-shanghai");
             paras.put("ProductKey", ProductKey);
             paras.put("TopicFullName", TopicFullName);
-            paras.put("MessageContent", Base64.encodeBase64String(Message.getBytes()));
+            paras.put("MessageContent",Message);
             paras.put("Qos","0");
 
             // 3. 去除签名关键字Key
