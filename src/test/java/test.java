@@ -10,9 +10,9 @@ import java.math.BigInteger;
 
 
 public class test implements IotCallback<String> {
-    private static String accessKeyId = "LTAIrqmpm8nva13W";
-    private static String accessSecret = "bCdAlLSAR4Rtv6mJ1lU7JIjCBBaa5M";
-    private static  String ProductKey ="a1KXAMVFitC";
+    private static String accessKeyId = "";
+    private static String accessSecret = "";
+    private static  String ProductKey ="";
     private static String Topic="user/router";
     @Test
     public void _test()  {
